@@ -33,7 +33,7 @@ echo "PANEL_TOKEN=$PANEL_TOKEN" >> ~/v-agent/.env
 
 
 # CLONING B-AGENT
-cd /opt/vpnpanel
+mkdir -p /opt/vpnpanel
 git clone https://github.com/sshpanel/b-agent b-agent
 cd b-agent 
 chmod -R 0755 *
